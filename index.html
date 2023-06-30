@@ -21,17 +21,17 @@
 </head>
 
 <body>
-  <nav class="menu js-menu">
+  <nav class="menu" data-menu="suave">
     <ul>
       <li><a href="#animais">Animais</a></li>
       <li><a href="#faq">FAQ</a></li>
       <li><a href="#contato">Contato</a></li>
-      <li><a href="https://origamid.com">Dev →</a></li>
+      <li><a href="https://origamid.com" target="_blank">Dev →</a></li>
     </ul>
   </nav>
-  <section class="grid-section animais js-scroll" id="animais">
+  <section class="grid-section animais" data-anime="scroll" id="animais">
     <h1 class="titulo">Animais Fantásticos</h1>
-    <ul class="animais-lista js-tabmenu">
+    <ul class="animais-lista" data-tab="menu">
       <li><img src="img/imagem1.jpg" alt="Imagem de uma raposa"></li>
       <li><img src="img/imagem2.jpg" alt="Imagem de um esquilo"></li>
       <li><img src="img/imagem3.jpg" alt="Imagem de um urso"></li>
@@ -39,8 +39,8 @@
       <li><img src="img/imagem5.jpg" alt="Imagem de um macaco"></li>
       <li><img src="img/imagem6.jpg" alt="Imagem de um leão"></li>
     </ul>
-    <div class="animais-descricao js-tabcontent">
-      <section>
+    <div class="animais-descricao" data-tab="content">
+      <section data-anime="show-right">
         <h2>Raposa</h2>
         <p>Raposas são pequenos a médios mamíferos onívoros pertencentes a vários gêneros da família Canidae. As raposas
           têm o crânio achatado, orelhas triangulares verticais, focinho pontiagudo e ligeiramente arrebitado e uma
@@ -57,7 +57,7 @@
 
       </section>
 
-      <section>
+      <section data-anime="show-right">
         <h2>Esquilo</h2>
         <p>Os esquilos pertencem a uma grande família de mamíferos roedores, de pequeno e médio porte, conhecida como
           Sciuridae. No Brasil, são também conhecidos como serelepe, caxinguelê, caxinxe, quatimirim,
@@ -70,7 +70,7 @@
 
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>Urso</h2>
         <p>Os Ursos (latim científico: Ursidae) constituem uma família de mamíferos carnívoros de grande porte, contendo
           os ursos e os pandas. Eles são classificados como caníformes ou carnivoros caninos. Os ursos são encontrados
@@ -84,7 +84,7 @@
 
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>Lobo</h2>
         <p>O lobo (também chamado de lobo-cinzento; nome científico: Canis lupus) é uma espécie de mamífero canídeo do
           gênero Canis. É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos
@@ -100,7 +100,7 @@
 
       </section>
 
-      <section>
+      <section data-anime="show-right">
         <h2>Macaco</h2>
         <p>Macaco é um termo de origem africana (provavelmente do banto makako) utilizado como designação comum a
           todas as espécies de símios ou primatas antropoides. É aplicada restritivamente no Brasil aos cebídeos (ou
@@ -115,7 +115,7 @@
 
       </section>
 
-      <section>
+      <section data-anime="show-right">
         <h2>Leão</h2>
         <p>O leão [feminino: leoa] (nome científico: Panthera leo) é uma espécie de mamífero carnívoro do gênero
           Panthera e da família Felidae. A espécie é atualmente encontrada na África subsaariana e na Ásia, com uma
@@ -139,9 +139,9 @@
     </div>
   </section>
 
-  <section class="grid-section faq js-scroll" id="faq">
+  <section class="grid-section faq" data-anime="scroll" id="faq">
     <h1 class="titulo">FAQ</h1>
-    <dl class="faq-lista js-accordion">
+    <dl class="faq-lista" data-anime="accordion">
       <dt>Qual a idade dos animais?</dt>
       <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, tenetur. Ad recusandae excepturi officiis
         nisi, voluptas minima vel, totam ratione a exercitationem, neque tempora commodi necessitatibus doloribus.</dd>
@@ -157,7 +157,7 @@
     </dl>
   </section>
 
-  <section class="grid-section contato js-scroll" id="contato">
+  <section class="grid-section contato" data-anime="scroll" id="contato">
     <h1 class="titulo">Contato</h1>
     <div class="mapa">
       <img src="img/mapa.png" alt="Mapa">
