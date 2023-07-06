@@ -135,6 +135,14 @@ body {
   display: none;
 }
 
+[data-tab="menu"] li img {
+  filter: grayscale(1);
+}
+
+[data-tab="menu"] li img.colored {
+  filter: grayscale(0);
+}
+
 [data-tab="content"] section.ativo {
   display: block !important;
 }
