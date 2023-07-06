@@ -25,6 +25,9 @@ body {
   background: #faf6ed;
   color: #222;
   -webkit-font-smoothing: antialiased;
+}
+
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
 }
@@ -137,6 +140,10 @@ body {
 
 [data-tab="menu"] li img {
   filter: grayscale(1);
+}
+
+[data-tab="menu"] li img:hover {
+  filter: grayscale(0);
 }
 
 [data-tab="menu"] li img.colored {
@@ -269,7 +276,7 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-  body {
+  .grid-container {
     grid-template-columns: 1fr;
   }
 
