@@ -16,6 +16,7 @@ export default function initTooltip() {
     this.addEventListener("mouseleave", onMouseLeave);
   }
 
+  // Passando um objeto como parametro na linha 16. Este objeto obrigatoriamente deve possuir uma funcao chamada handleEvent
   const onMouseLeave = {
     handleEvent() {
       this.tooltipBox.remove();
